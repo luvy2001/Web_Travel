@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+    background: url(./background.jpg);
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+}
+::selection{
+    color: #23a0e4;
+    /* background: #6665ee; */
+}
+.container{
+    position: absolute;
+    top: 50%;
+    border-radius: 50px;
+    left: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    background: url(./assets/images/cta-bg.jpg);
+    padding: 50px 65px;
+    border-radius: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    height: 40px;
+    width: 600px;
+    font-size: 15px;
+    border-radius: 1rem;
+    outline: 0;
+    border: 0;
+    text-align: center;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.container .form form .forget-pass a{
+   font-size: 15px;
+}
+.container .form form .button{
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 200px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow:none;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+}
+.container .form form .button:is(:hover, :focus-visible) {
+        box-shadow: 0px 4px 20px 0px #49c628a6; 
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+.container .form form .link a{
+    color: #a1a1e4;
+}
+.container .login-form form p{
+    font-size: 14px;
+}
+.container .row .alert{
+    font-size: 14px;
+}
+
+.container .form-group {
+    margin: 2rem;
+}
+
+
+.container h2 {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+
+.text-center {
+    text-align: right;
+}
+
